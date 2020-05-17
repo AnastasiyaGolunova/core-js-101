@@ -1,3 +1,4 @@
+/*eslint-disable */
 /* *******************************************************************************************
  *                                                                                           *
  * Plese read the following tutorial before implementing tasks:                              *
@@ -7,6 +8,7 @@
 
 
 /**
+ *
  * Returns the result of concatenation of two strings.
  *
  * @param {string} value1
@@ -52,7 +54,7 @@ function getStringLength(value) {
  *   'Chuck','Norris'  => 'Hello, Chuck Norris!'
  */
 function getStringFromTemplate(firstName, lastName) {
-   return 'Hello, '+ firstName + ' ' + lastName + '!';
+  return `Hello, ${firstName} ${lastName}!`;
 }
 
 /**
@@ -202,7 +204,7 @@ function extractEmails(str) {
  *             '└──────────┘\n'
  *
  */
- function getRectangleString(width, height) {
+function getRectangleString(width, height) {
   throw new Error('Not implemented');
 }
 

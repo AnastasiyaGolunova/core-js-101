@@ -1,3 +1,4 @@
+/*eslint-disable */
 /* *******************************************************************************************
  *                                                                                           *
  * Plese read the following tutorial before implementing tasks:                              *
